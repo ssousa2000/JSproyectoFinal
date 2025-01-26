@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>
+        Bienvenido a la Escuela teorica de helicopteros de simon
+    </h1>
+</header>
+<body>
+    <h2>
+        Aca enontraras los curos necesarios para consegiuir la licencia FAA que estes cursando.
+    </h2>
+    <h5>*la cantidad define en cuantos dispositivos estara disponible el curso*</h5>
+    <table>
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="cursoBody">
+        </tbody>
+        
+    </table>
+    <h2>Carrito de Compras</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre del Curso  </th>
+            <th>Precio  </th>
+            <th>cantidad</th>
+            <th>Precio Final del Curso</th>
+        </tr>
+    </thead>
+    <tbody id="carritoBody">
+    </tbody>
+</table>
+<h2> Total</h2>
+<div id="resumenTotal">
+    <p>Total sin impuestos: <span id="totalSinImpuestos">USD $0</span></p>
+    <p>Impuestos (18%): <span id="impuestos">USD $0</span></p>
+    <p>Total con impuestos: <span id="totalFinal">USD $0</span></p>
+</div>
+<button id="btn-checkout">Ir al Checkout</button>
+<button id="btn-vaciarCarrito">Vaciar Carrito</button>
+
+
+    
+    <script src="agregar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

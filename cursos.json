@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Privado",
+        "precio": 100
+    },
+    {
+        "nombre": "Comercial",
+        "precio": 200
+    },
+    {
+        "nombre": "Instrumentos",
+        "precio": 300
+    }
+]
